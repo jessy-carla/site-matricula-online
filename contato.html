@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SENAI Pernambuco | Contato</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a
+          class="navbar-brand fw-bold d-flex align-items-center gap-2"
+          href="./inicio.html"
+          ><img src="./img/senai-logo.png" alt="SENAI Pernambuco" height="42" />
+          </a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menu"
+          aria-controls="menu"
+          aria-expanded="false"
+          aria-label="Abrir menu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./inicio.html">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./quem_somos.html">Quem Somos</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="./contato.html"
+                >Contato</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./login.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="flex-grow-1">
+      <header class="bg-primary text-white py-5">
+        <div class="container">
+          <h1 class="display-5 fw-bold">Fale com o SENAI Pernambuco</h1>
+          <p class="lead mb-0">
+            Nossa equipe está pronta para orientar sua jornada profissional.
+          </p>
+        </div>
+      </header>
+      <div class="container py-5">
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <h2 class="h3 fw-bold mb-4">Canais de atendimento</h2>
+            <div class="list-group shadow-sm">
+              <div class="list-group-item p-4">
+                <h3 class="h6 fw-bold">Telefone</h3>
+                <p class="mb-0">(81) 3202-9300</p>
+              </div>
+              <div class="list-group-item p-4">
+                <h3 class="h6 fw-bold">E-mail</h3>
+                <p class="mb-0">atendimento@senaipe.com.br</p>
+              </div>
+              <div class="list-group-item p-4">
+                <h3 class="h6 fw-bold">Horário</h3>
+                <p class="mb-0">Segunda a sexta, das 8h às 18h</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="card border-0 shadow-sm">
+              <div class="card-body p-4 p-md-5">
+                <h2 class="h3 fw-bold">Envie uma mensagem</h2>
+                <p class="text-body-secondary">
+                  Responderemos assim que possível.
+                </p>
+                <form class="row g-3 needs-validation" novalidate>
+                  <div class="col-md-6">
+                    <label for="nome" class="form-label">Nome</label
+                    ><input
+                      id="nome"
+                      name="nome"
+                      class="form-control"
+                      required
+                    />
+                    <div class="invalid-feedback">Informe seu nome.</div>
+                  </div>
+                  <div class="col-md-6">
+                    <label for="email" class="form-label">E-mail</label
+                    ><input
+                      type="email"
+                      id="email"
+                      name="email"
+                      class="form-control"
+                      required
+                    />
+                    <div class="invalid-feedback">
+                      Informe um e-mail válido.
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <label for="assunto" class="form-label">Assunto</label
+                    ><select
+                      id="assunto"
+                      name="assunto"
+                      class="form-select"
+                      required
+                    >
+                      <option value="">Selecione</option>
+                      <option>Informações sobre cursos</option>
+                      <option>Matrícula</option>
+                      <option>Atendimento geral</option>
+                    </select>
+                    <div class="invalid-feedback">Selecione um assunto.</div>
+                  </div>
+                  <div class="col-12">
+                    <label for="mensagem" class="form-label">Mensagem</label
+                    ><textarea
+                      id="mensagem"
+                      name="mensagem"
+                      class="form-control"
+                      rows="5"
+                      required
+                    ></textarea>
+                    <div class="invalid-feedback">Digite sua mensagem.</div>
+                  </div>
+                  <div class="col-12">
+                    <button class="btn btn-primary" type="submit">
+                      Enviar mensagem
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark text-white text-center py-4">
+      <div class="container">
+        <p class="mb-0">
+          &copy; 2026 SENAI Pernambuco. Todos os direitos reservados.
+        </p>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      document.querySelectorAll(".needs-validation").forEach((form) =>
+        form.addEventListener("submit", (event) => {
+          if (!form.checkValidity()) {
+            event.preventDefault();
+            event.stopPropagation();
+          }
+          form.classList.add("was-validated");
+        }),
+      );
+    </script>
+  </body>
+</html>
