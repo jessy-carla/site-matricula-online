@@ -16,134 +16,40 @@ Desenvolver um site de matrícula que permita ao usuário preencher seus dados e
 
 ## 💻 Tecnologias Utilizadas
 
-* HTML5
-* CSS3
-* JavaScript
-* Bootstrap
-* Git
-* GitHub
+Este projeto foi desenvolvido utilizando tecnologias de desenvolvimento Front-End:
 
----
+* **HTML5** — estruturação semântica das páginas, conteúdos, navegação e formulários;
+* **CSS3** — estilização e apresentação visual da aplicação;
+* **Bootstrap 5.3.8** — utilizado para criação do layout responsivo, navbar, carrossel, cards, botões, grid e componentes visuais;
+* **Bootstrap JavaScript** — utilizado para funcionalidades interativas, como o menu responsivo e o carrossel de imagens;
+* **Bootstrap Icons/Unicode** — utilização de símbolos e elementos visuais na interface;
+* **Git** — controle de versão do projeto;
+* **GitHub** — armazenamento e gerenciamento do código-fonte;
+* **GitHub Pages** — publicação do projeto na web.
 
-## ⚙️ Funcionalidades
+### 🎨 Recursos do Bootstrap utilizados
 
-O projeto possui uma interface destinada ao processo de matrícula, incluindo:
+O projeto utiliza diversos recursos do Bootstrap, incluindo:
 
-* 📝 Formulário de matrícula;
-* 👤 Cadastro de informações do aluno;
-* 📚 Seleção de curso;
-* 📅 Seleção de informações relacionadas à matrícula;
-* ✅ Validação dos campos;
-* 📱 Layout responsivo;
-* 💻 Interface adaptada para diferentes tamanhos de tela.
+* Navbar responsiva;
+* Menu mobile;
+* Carousel;
+* Grid responsivo;
+* Cards;
+* Botões;
+* Classes utilitárias de espaçamento;
+* Tipografia;
+* Cores;
+* Layout responsivo;
+* Componentes adaptáveis para diferentes tamanhos de tela.
 
----
+### 🌐 Projeto Online
 
-## 🖥️ Interface
+**Site de Matrícula Online — SENAI Pernambuco**
 
-O projeto foi desenvolvido com foco em uma interface:
-
-* Simples;
-* Organizada;
-* Intuitiva;
-* Responsiva;
-* De fácil utilização.
-
----
-
-## 📂 Estrutura do Projeto
-
-```text
-site-matricula-online/
-│
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-├── imagens/
-│
-└── README.md
-```
-
----
-
-## 🚀 Como executar o projeto
-
-### 1. Clone o repositório
-
-```bash
-git clone https://github.com/jessy-carla/site-matricula-online.git
-```
-
-### 2. Acesse a pasta
-
-```bash
-cd site-matricula-online
-```
-
-### 3. Execute o projeto
-
-Abra o arquivo:
-
-```text
-index.html
-```
-
-O projeto também pode ser executado utilizando a extensão **Live Server** no Visual Studio Code.
-
----
-
-## 🌐 Projeto Online
-
-Acesse a versão publicada do projeto:
-
-**Site de Matrícula Online:**
 https://jessy-carla.github.io/site-matricula-online/
 
----
+### 📌 Observação
 
-## 🎓 Finalidade Acadêmica
+O projeto foi desenvolvido para fins **acadêmicos**, como prática de desenvolvimento Front-End e aplicação dos conhecimentos adquiridos durante o curso do **SENAI**.
 
-Este projeto foi desenvolvido exclusivamente para **fins acadêmicos**, como parte do processo de aprendizagem no SENAI.
-
-Durante o desenvolvimento foram aplicados conhecimentos relacionados a:
-
-* Desenvolvimento Front-End;
-* HTML e estrutura semântica;
-* CSS e estilização;
-* JavaScript;
-* Formulários;
-* Validação de dados;
-* Responsividade;
-* Organização de projetos;
-* Versionamento com Git e GitHub.
-
----
-
-## 📈 Possíveis Melhorias
-
-Como evolução futura do projeto, podem ser implementados:
-
-* Integração com banco de dados;
-* Sistema de login;
-* Área do aluno;
-* Confirmação de matrícula por e-mail;
-* Consulta de status da matrícula;
-* Backend para armazenamento dos dados;
-* Painel administrativo;
-* Melhorias de acessibilidade.
-
----
-
-## 👩‍💻 Autora
-
-**Jéssika Carla da Silva**
-
-Projeto desenvolvido para fins acadêmicos no **SENAI**.
-
----
-
-## 📌 Observação
-
-Este projeto é uma **simulação acadêmica de um sistema de matrícula online** e não representa um sistema oficial de matrícula de uma instituição de ensino.
